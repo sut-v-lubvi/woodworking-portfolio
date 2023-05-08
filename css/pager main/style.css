@@ -152,7 +152,7 @@ header {
 .menu-btn span:nth-of-type(3) {
 	top: calc(50% + 8px);
 }
-/* Меню, которое будет появляться */
+
 .menu {
 	position: fixed;
 	text-align: center;
@@ -172,7 +172,7 @@ header {
 .menu li {
 	list-style-type: none;
 }
-/* Меняем гамбургер иконку, когда меню открыто */
+
 .menu-btn.active span:nth-of-type(1) {
   display: none;
 }
@@ -187,6 +187,20 @@ header {
 .line{
 	border-bottom: 3px solid black;
 
+}
+nav{
+	padding-top: 80px;
+	font-size: 28px;
+	line-height: 60px;
+	flex: 1 1 auto;
+	height: 100%;
+}
+ul{
+	flex: 1 1 auto;
+	height: 100%;
+}
+nav li a {
+	color: #000000;
 }
 .about {
   min-height: 100%;
