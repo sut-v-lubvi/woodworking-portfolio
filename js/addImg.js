@@ -21,14 +21,14 @@ lincList.forEach(lincsEl => {
 	})
 })
 //create arrays with src images
-var photoArray1 = ['/img/1stairs/1.jpg','/img/1stairs/2.jpg','/img/1stairs/3.jpg','/img/1stairs/4.jpg','/img/1stairs/5.jpg','/img/1stairs/6.jpg'];
-var photoArray2 = ['/img/2diningRoom/1.jpg','/img/2diningRoom/2.jpg','/img/2diningRoom/3.jpg','/img/2diningRoom/4.jpg','/img/2diningRoom/5.jpg','/img/2diningRoom/6.jpg'];
-var photoArray3 = ['/img/3library/1.jpg','/img/3library/2.jpg','/img/3library/3.jpg','/img/3library/4.jpg','/img/3library/5.jpg','/img/3library/6.jpg'];
-var photoArray4 = ['/img/4batroom/1.jpg','/img/4batroom/2.jpg','/img/4batroom/3.jpg','/img/4batroom/4.jpg','/img/4batroom/5.png','/img/4batroom/6.jpg'];
-var photoArray5 = ['/img/5children_room/1.jpg','/img/5children_room/2.jpg','/img/5children_room/3.jpg','/img/5children_room/4.jpg','/img/5children_room/5.jpeg','/img/5children_room/6.jpeg'];
-var photoArray6 = ['/img/6wardrobe/1.jpg','/img/6wardrobe/2.jpg','/img/6wardrobe/3.jpg','/img/6wardrobe/4.jpg','/img/6wardrobe/5.jpg','/img/6wardrobe/6.jpg'];
-var photoArray7 = ['/img/7closet/1.jpg','/img/7closet/2.jpg','/img/7closet/3.jpg','/img/7closet/4.jpg','/img/7closet/5.jpg','/img/7closet/6.jpg'];
-var photoArray8 = ['/img/8door/1.jpg','/img/8door/2.jpg','/img/8door/3.jpg','/img/8door/4.jpg','/img/8door/5.jpg','/img/8door/6.jpg'];
+var photoArray1 = ['img/1stairs/1.jpg','img/1stairs/2.jpg','img/1stairs/3.jpg','img/1stairs/4.jpg','img/1stairs/5.jpg','img/1stairs/6.jpg'];
+var photoArray2 = ['img/2diningRoom/1.jpg','img/2diningRoom/2.jpg','img/2diningRoom/3.jpg','img/2diningRoom/4.jpg','img/2diningRoom/5.jpg','/img/2diningRoom/6.jpg'];
+var photoArray3 = ['img/3library/1.jpg','img/3library/2.jpg','img/3library/3.jpg','img/3library/4.jpg','img/3library/5.jpg','img/3library/6.jpg'];
+var photoArray4 = ['img/4batroom/1.jpg','img/4batroom/2.jpg','img/4batroom/3.jpg','img/4batroom/4.jpg','img/4batroom/5.png','img/4batroom/6.jpg'];
+var photoArray5 = ['img/5children_room/1.jpg','img/5children_room/2.jpg','img/5children_room/3.jpg','img/5children_room/4.jpg','img/5children_room/5.jpeg','/img/5children_room/6.jpeg'];
+var photoArray6 = ['img/6wardrobe/1.jpg','img/6wardrobe/2.jpg','img/6wardrobe/3.jpg','img/6wardrobe/4.jpg','img/6wardrobe/5.jpg','img/6wardrobe/6.jpg'];
+var photoArray7 = ['img/7closet/1.jpg','img/7closet/2.jpg','img/7closet/3.jpg','img/7closet/4.jpg','img/7closet/5.jpg','img/7closet/6.jpg'];
+var photoArray8 = ['img/8door/1.jpg','img/8door/2.jpg','img/8door/3.jpg','img/8door/4.jpg','img/8door/5.jpg','img/8door/6.jpg'];
 let photoArray = [photoArray1,photoArray2,photoArray3,photoArray4,photoArray5,photoArray6,photoArray7,photoArray8];
 var LincId;
 // assign addEventListener to all links
