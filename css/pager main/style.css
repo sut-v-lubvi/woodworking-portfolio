@@ -198,6 +198,14 @@ ul {
   flex: 1 1 auto;
   height: 100%;
   list-style: none;
+  text-align: left;
+}
+
+nav li a:hover {
+  font-size: 30px;
+}
+nav li a:active {
+  font-size: 28px;
 }
 nav li a {
   color: #000000;
